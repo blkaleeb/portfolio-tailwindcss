@@ -730,10 +730,6 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-.mb-96 {
-  margin-bottom: 24rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -829,6 +825,10 @@ h1 {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .truncate {
@@ -968,12 +968,12 @@ h1 {
   padding-bottom: 8rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -1194,11 +1194,6 @@ h1 {
 .hover\:grayscale-0:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 .focus\:outline-sky-400:focus {
