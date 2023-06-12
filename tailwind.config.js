@@ -1,24 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ["index.html"],
   theme: {
     container: {
       center: true,
-      padding: '16px',
+      padding: "16px",
     },
     extend: {
       fontFamily: {
-        inter: ['Inter'],
+        inter: ["Inter"],
       },
       colors: {
-        primary: '#14b8a6',
-        secondary: '#64748b',
-        dark: '#0f172a'
+        primary: "#78001B",
+        secondary: "#64748b",
+        dark: "#0f172a",
       },
       screens: {
-        '2xl' : '1320px',
+        "2xl": "1320px",
       },
     },
   },
   plugins: [],
-}
+};
